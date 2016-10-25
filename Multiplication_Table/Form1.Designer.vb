@@ -52,14 +52,15 @@ Partial Class frmMain
         Me.lstNumbers.Location = New System.Drawing.Point(24, 62)
         Me.lstNumbers.Name = "lstNumbers"
         Me.lstNumbers.Size = New System.Drawing.Size(120, 264)
-        Me.lstNumbers.TabIndex = 2
+        Me.lstNumbers.TabIndex = 5
+        Me.lstNumbers.TabStop = False
         '
         'btnDisplayTables
         '
         Me.btnDisplayTables.Location = New System.Drawing.Point(185, 62)
         Me.btnDisplayTables.Name = "btnDisplayTables"
         Me.btnDisplayTables.Size = New System.Drawing.Size(75, 154)
-        Me.btnDisplayTables.TabIndex = 3
+        Me.btnDisplayTables.TabIndex = 2
         Me.btnDisplayTables.Text = "&Display Tables"
         Me.btnDisplayTables.UseVisualStyleBackColor = True
         '
@@ -68,7 +69,7 @@ Partial Class frmMain
         Me.btnClear.Location = New System.Drawing.Point(185, 222)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(75, 75)
-        Me.btnClear.TabIndex = 4
+        Me.btnClear.TabIndex = 3
         Me.btnClear.Text = "C&lear"
         Me.btnClear.UseVisualStyleBackColor = True
         '
@@ -77,7 +78,7 @@ Partial Class frmMain
         Me.btnExit.Location = New System.Drawing.Point(185, 303)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 5
+        Me.btnExit.TabIndex = 4
         Me.btnExit.Text = "E&xit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
