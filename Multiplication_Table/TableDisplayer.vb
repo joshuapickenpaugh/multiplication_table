@@ -21,7 +21,7 @@
 
     End Sub
 
-    Public Function MakeTable()
+    Public Sub MakeTable()
 
         Dim decProduct As Decimal
         Dim strEquation As String
@@ -37,8 +37,6 @@
             strEquation = str_decUserInput & " * " & strIntCounter & " = " & strDecProduct
         Next intCounter
 
-        Return strEquation
-
-    End Function
+    End Sub
 
 End Class
